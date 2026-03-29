@@ -3,8 +3,8 @@
 > Smart contract security research — vulnerability library, exploit PoCs, wargame solutions.
 
 ![Forge](https://img.shields.io/badge/Forge-passing-brightgreen)
-![Vulns](https://img.shields.io/badge/Vulnerabilities-12%2F30-blue)
-![Exploits](https://img.shields.io/badge/Exploit_PoCs-16%2F43-orange)
+![Vulns](https://img.shields.io/badge/Vulnerabilities-1%2F30-blue)
+![Exploits](https://img.shields.io/badge/Exploit_PoCs-0%2F43-orange)
 ![Wargames](https://img.shields.io/badge/Wargames-0%2F71-purple)
 
 ## Structure
