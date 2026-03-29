@@ -27,7 +27,7 @@ Each pattern has: `Vulnerable.sol` → `Attacker.sol` → `Safe.sol` → forge t
 
 | Pattern | Description | Status |
 |---------|-------------|--------|
-| [Reentrancy](vuln-library/01-reentrancy/) | CEI pattern violation — ETH sent before state update | ![](https://img.shields.io/badge/-TODO-lightgrey) |
+| [Reentrancy](vuln-library/01-reentrancy/) | CEI pattern violation — ETH sent before state update | ![](https://img.shields.io/badge/-DONE-brightgreen) |
 | [AccessControl](vuln-library/02-access-control/) | tx.origin vs msg.sender — ownership bypass | ![](https://img.shields.io/badge/-TODO-lightgrey) |
 | [IntegerOverflow](vuln-library/03-integer-overflow/) | Pre-0.8.0 wrap-around — SafeMath history | ![](https://img.shields.io/badge/-TODO-lightgrey) |
 | [Delegatecall](vuln-library/04-delegatecall/) | Storage collision — proxy context abuse | ![](https://img.shields.io/badge/-TODO-lightgrey) |
@@ -65,6 +65,6 @@ Each pattern has: `Vulnerable.sol` → `Attacker.sol` → `Safe.sol` → forge t
 ## Run
 
 ```bash
-git clone --recursive https://github.com/YOUR_USERNAME/solidity-security-research.git
+git clone --recursive https://github.com/protamoghna-dev/solidity-security-research.git
 cd solidity-security-research && forge test -vv
 ```
