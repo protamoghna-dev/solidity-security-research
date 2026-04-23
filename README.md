@@ -3,8 +3,8 @@
 > Smart contract security research — vulnerability library, exploit PoCs, wargame solutions.
 
 ![Forge](https://img.shields.io/badge/Forge-passing-brightgreen)
-![Vulns](https://img.shields.io/badge/Vulnerabilities-4%2F30-blue)
-![Exploits](https://img.shields.io/badge/Exploit_PoCs-3%2F43-orange)
+![Vulns](https://img.shields.io/badge/Vulnerabilities-5%2F30-blue)
+![Exploits](https://img.shields.io/badge/Exploit_PoCs-4%2F43-orange)
 ![Wargames](https://img.shields.io/badge/Wargames-0%2F71-purple)
 
 ## Structure
@@ -31,7 +31,7 @@ Each pattern has: `Vulnerable.sol` → `Attacker.sol` → `Safe.sol` → forge t
 | [AccessControl](vuln-library/02-access-control/) | tx.origin vs msg.sender — ownership bypass | ![](https://img.shields.io/badge/-DONE-brightgreen) |
 | [IntegerOverflow](vuln-library/03-integer-overflow/) | Pre-0.8.0 wrap-around — SafeMath history | ![](https://img.shields.io/badge/-DONE-brightgreen) |
 | [Delegatecall](vuln-library/04-delegatecall/) | Storage collision — proxy context abuse | ![](https://img.shields.io/badge/-DONE-brightgreen) |
-| [OracleManipulation](vuln-library/05-oracle-manipulation/) | Spot price oracle — flash loan price attack | ![](https://img.shields.io/badge/-TODO-lightgrey) |
+| [OracleManipulation](vuln-library/05-oracle-manipulation/) | Spot price oracle — flash loan price attack | ![](https://img.shields.io/badge/-DONE-brightgreen) |
 | [FlashLoans](vuln-library/06-flash-loans/) | AAVE v3 callback — atomic borrow and exploit | ![](https://img.shields.io/badge/-TODO-lightgrey) |
 | [SignatureReplay](vuln-library/07-signature-replay/) | ecrecover replay — EIP-712 missing nonce | ![](https://img.shields.io/badge/-TODO-lightgrey) |
 | [GasDOS](vuln-library/08-gas-dos/) | Unbounded loops — block gas limit griefing | ![](https://img.shields.io/badge/-TODO-lightgrey) |
